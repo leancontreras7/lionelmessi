@@ -8,6 +8,10 @@
   text-decoration: none;
 }
 
+body {
+  height: 300vh;
+}
+
 nav {
   background: #000;
   height: 80px;
@@ -43,8 +47,8 @@ nav ul li a {
 }
 
 li a.active, li a:hover {
-  background: #000090;
-  transition: 0.5s;
+  border-bottom: 3px solid rgb(85, 124, 85);
+  transition: 1s;
 }
 
 .checkbtn {
@@ -99,8 +103,7 @@ section {
     font-size: 15px; /*20px CAMBIAR ESTO*/
   }
   li a:hover, li a.active {
-    background: none;
-    color: red;
+    border-bottom: 3px solid rgb(85, 124, 85);
   }
   #check:checked ~ ul {
     left: 0;

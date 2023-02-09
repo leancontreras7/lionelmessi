@@ -30,8 +30,8 @@ nav ul li a{
     text-transform: uppercase;
 }
 li a.active, li a:hover{
-    background: #000090;
-    transition: .5s;
+    border-bottom: 3px solid rgb(85, 124, 85);
+    transition: 1s;
 }
 .checkbtn{
     font-size: 30px;
@@ -85,8 +85,8 @@ section{
         font-size: 15px; /*20px CAMBIAR ESTO*/
     }
     li a:hover, li a.active{
-        background: none;
-        color: red;
+        border-bottom: 3px solid rgb(85, 124, 85);
+        
     }
     #check:checked ~ ul{
         left:0;
